@@ -105,7 +105,7 @@ This project transforms an ESP32 and a touchscreen display into a powerful, blue
 
 ---
 
-## 📝 Payload Configuration (Ducky Script Syntax)
+## 🚀 Payload Configuration (Ducky Script Syntax)
 
 You can write your payload in the `payload.txt` file using a simple scripting language.
 
