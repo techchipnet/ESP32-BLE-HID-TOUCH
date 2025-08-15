@@ -129,7 +129,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 ---
 
-## Disclaimer
+## ⚠️ Disclaimer
 
 This project is intended for educational purposes only. I'm not responsible for any actions or consequences resulting from the use of this code. Users are responsible for ensuring compliance with all applicable laws and regulations when using this project.
 
