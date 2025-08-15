@@ -38,7 +38,35 @@ This project transforms an ESP32 and a touchscreen display into a powerful, blue
 
 ### Software
 
-1.  **Arduino IDE**.
+1.  **Arduino IDE**. [Arduino](https://www.arduino.cc/en/software/)
+
+---
+
+## 🔌 Connection table
+
+### Display Connections
+
+   | ILI9341 | ESP32        |           
+| :------ | :---------------- |
+| `VCC` | `3.3V`     |
+| `GND` | `GND`     |
+| `CS` | `D17`     |
+| `RESET` | `D5`     |
+| `DC` | `D16`     |
+| `SDI(MOSI)` | `D23`     |
+| `SCK` | `D18`     |
+| `LED` | `D32`     |
+| `SDO(MISO)` | `D19`     |
+
+### Touch Connections
+
+  | ILI9341 | ESP32        |           
+| :------ | :---------------- |
+| `T_CLK` | `D18`     |
+| `T_CS` | `D21`     |
+| `T_DIN` | `D23`     |
+| `T_DO` | `D19`     |
+| `T_IRQ` | `-1`     |
 
 ---
 
@@ -57,7 +85,7 @@ This project transforms an ESP32 and a touchscreen display into a powerful, blue
    5. Add the downloaded .bin file & set the address
    6. Click "Program" to flash it
 
-   #### Command Line
+   #### Command Line Example
    ```bash
    esptool.py --chip esp32 --port [PORT] --baud 921600 write_flash 0x0 firmware.bin
    ```
