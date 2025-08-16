@@ -1,6 +1,6 @@
 <div align="center">
 
-# ESP32 BLE Ducky HID GUI
+# ESP32 BLE Ducky HID TOUCH
 
 ### A fully customizable, touch-based BLE-Ducky powered by an ESP32.
 
